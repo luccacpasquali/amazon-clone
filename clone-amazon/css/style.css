@@ -26,7 +26,59 @@ div#main-content {
 
 #mid-content {
     max-width: 800px;
+    line-height: 1.5;
 }
+
+#mid-content h1{
+    
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+#mid-content #link-editora{
+    font-size: 14px;
+}
+
+#avaliacao-wraper {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    border-bottom: 1px solid black;
+}
+
+#link-editora a{
+    color: #007185;
+    text-decoration: none;
+}
+
+#link-editora a:hover{
+    color: #CC0C39;
+    text-decoration: underline;
+}
+
+#avaliacao-wraper > a{
+    color: #007185;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+#avaliacao-wraper > a:hover{
+    color: #CC0C39;
+    text-decoration: underline;
+}
+
+#avaliacao-wraper #avaliacao-p{
+    color: #007185;
+    text-decoration: none;
+    margin-left: 35%;
+}
+
+#avaliacao-wraper #avaliacao-p:hover{
+    color: #CC0C39;
+    text-decoration: underline;
+}
+
+/* inicio campo de compra */
 
 #right-content {
     width: 270px;
@@ -188,3 +240,4 @@ input#comprar {
     height: 1px;
     background-color: rgb(189, 187, 187);
 }
+
