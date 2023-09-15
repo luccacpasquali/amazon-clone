@@ -5,8 +5,55 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+	src: url(../Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/Amazon-Ember-Medium.ttf);
+	font-family: "amazon-bold" ;
+}
+
+@font-face {
+	src: url(../Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Lt.ttf);
+	font-family: "amazon-light" ;
+}
+
 body {
     height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 132px;
+}
+
+header #nav-top{
+    background-color: #131921;
+    height: 60px;
+}
+
+header #nav-mid{
+    background-color: #232f3e;
+    height: 39px;
+}
+
+header #nav-bot{
+    height: 33px;
+    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid rgba(0,0,0,.17);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 0 9px 0 15px;
+    line-height: 33px;
+}
+
+#nav-bot a{
+    font-family: "amazon-bold";
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 12px 12px 5px 12px ;
+}
+
+#nav-bot a:hover{
+    color: #CC0C39;
+    border-bottom: #CC0C39 1px solid;
 }
 
 div#main-content {
@@ -35,7 +82,6 @@ div#main-content {
 }
 
 #mid-content h1{
-    
     font-weight: lighter;
     font-size: 28px;
 }
@@ -130,6 +176,7 @@ div#main-content {
 }
 
 #mid-content #main-txt {
+    font-family: "amazon-bold";
     margin-top: 24px;
     padding-bottom: 20px;
     font-size: 14px;
