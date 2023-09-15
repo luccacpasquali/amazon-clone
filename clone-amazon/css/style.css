@@ -17,7 +17,12 @@ div#main-content {
     max-width: 1500px;
 }
 
-#main-content > img {
+#left-content{
+    display: flex;
+    align-items: center;
+}
+
+#left-content img {
     max-width: 290px;
     height: auto;
     margin-right: 20px;
@@ -41,9 +46,18 @@ div#main-content {
 
 #avaliacao-wraper {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     max-width: 800px;
+    font-size: 14px;
     border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 19px;
+}
+
+#avaliacao-left{
+    display: flex; 
+    width: 300px;
 }
 
 #link-editora a{
@@ -56,26 +70,71 @@ div#main-content {
     text-decoration: underline;
 }
 
-#avaliacao-wraper > a{
+#avaliacao-left  a{
     color: #007185;
     text-decoration: none;
-    margin-left: 2%;
+    margin-left:2% ;
+    font-size: 14px;
 }
 
-#avaliacao-wraper > a:hover{
+#avaliacao-left  a:hover{
     color: #CC0C39;
     text-decoration: underline;
 }
 
 #avaliacao-wraper #avaliacao-p{
     color: #007185;
+    font-size: 14px;
     text-decoration: none;
-    margin-left: 35%;
 }
 
 #avaliacao-wraper #avaliacao-p:hover{
     color: #CC0C39;
     text-decoration: underline;
+}
+
+#box-preco {
+    width: 173px;
+    height: 51px;
+    border: 1px solid #007185;
+    background-color: #EDFDFF;
+    box-shadow: inset 0 0 0 3px #007185;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 13px;
+    padding: 5px 10px 5px 11px;
+    line-height: 19px;
+    font-weight: 700;
+}
+
+#box-preco:hover {  
+    background-color: #f7fafa;
+}
+
+#box-preco p:nth-last-of-type(1){
+    color: #B12704;
+    font-size: 14px;
+}
+
+#link-novo{
+    text-decoration: none;
+    color: #007185;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 24px;
+}
+
+#link-novo:hover {
+    color: #CC0C39;
+    text-decoration: underline;
+}
+
+#mid-content #main-txt {
+    margin-top: 24px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
 }
 
 /* inicio campo de compra */
@@ -113,6 +172,7 @@ div#main-content {
     margin-top: 2px;
     margin-bottom: 6px;
 }
+
 #prime-logo{
     width: 53px;
     height: 15px;
