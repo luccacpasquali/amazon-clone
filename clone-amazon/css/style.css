@@ -24,10 +24,136 @@ header {
     height: 132px;
 }
 
+/*inicio nav top*/
+
 header #nav-top{
     background-color: #131921;
     height: 60px;
+    display: flex;
 }
+
+/*inicio top left (logo amazon e endereco)*/
+
+header #nav-top #top-left{
+    display: flex;
+    width: 357px;
+    height: 60px;
+    margin-left: 15px;
+}
+
+/*logo-amazon inicio*/
+a#amazon-logo-link{
+    width: 160px;
+    padding: 3px 8px 0 0px;
+    margin: 1px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+a#amazon-logo-link div{
+    font-size: 28px;
+    font-weight: bolder;
+    margin-top: 4px;
+}
+
+a#amazon-logo-link p{
+    font-size: 12.5px;
+    margin-top: 18px;
+    font-weight:700 ;
+}
+
+/*logo-amazon fim*/
+
+/*endreco inicio*/
+
+#encereco-nav-link{
+    margin-top: 5px;
+    width: fit-content ;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    min-width: 200px;
+} 
+
+#endereco-nav {
+    padding: 0 9px 0 9px;
+    margin: 5px 2px 5px 0;
+}
+
+#spn1{
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+}
+
+#spn2{
+    display: block;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+/*endreco fim*/
+
+/*fim top left (logo amazon e endereco)*/
+
+/*Inicio Top Mid*/
+nav#top-mid{
+    width: 737px;
+    height: 60px;
+    display: flex;
+    float: none;
+    flex: 1 1 auto;
+    padding: 0 18px;
+    margin: 10px 10px 4px 10px;
+    padding: 0 10px;
+}
+
+#top-select{
+    display: flex;
+}
+select{
+    width: 64px;
+    height: 40px;
+    border-radius: 4px 0px 0px 4px;
+    text-align: center;
+    border: 0;
+    color: #636363;
+}
+
+#top-serach-bar{
+    max-width: 1060px;
+    width: 100%;
+    padding: ;
+}
+
+#input-serach{
+    border-radius: 0;
+    width: 100%;
+    border: 0;
+    width: px;
+    height: 40px;
+    line-height: 15px;
+    font-size: 14px;
+    padding: 7px 10px 10px 0;
+    padding-left: 10px;
+}
+
+/*fim top mid*/
+
+/* search btn */
+
+#top-search-btn{
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    cursor: pointer;
+    background-color: #febd69;
+    border-radius: 0px 4px 4px 0px;
+}
+
+/*Fim nav top*/
 
 header #nav-mid{
     background-color: #232f3e;
