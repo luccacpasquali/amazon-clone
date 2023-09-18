@@ -100,8 +100,8 @@ a#amazon-logo-link p{
 
 /*Inicio Top Mid*/
 nav#top-mid{
-    width: 737px;
-    height: 60px;
+    max-width: 1180px;
+    height: 50px;
     display: flex;
     float: none;
     flex: 1 1 auto;
@@ -140,9 +140,11 @@ select{
     padding-left: 10px;
 }
 
-/*fim top mid*/
+#input-serach:focus{
+    
+    
+}
 
-/* search btn */
 
 #top-search-btn{
     width: 45px;
@@ -151,6 +153,56 @@ select{
     cursor: pointer;
     background-color: #febd69;
     border-radius: 0px 4px 4px 0px;
+}
+
+#serach-btn span{
+    color: greay;
+}
+
+
+/*fim top mid*/
+
+/*Inicio top right*/
+
+#nav-tools{
+    display: flex;
+    padding: 3px 0 0 0;
+}
+
+#login-contas{
+    margin-left: 6px;
+    padding-right: 9px;
+    padding-left: 9px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#login-contas p:nth-last-of-type(1){
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+#login-contas p:nth-last-of-type(2){
+    margin-top: 9px;
+    cursor: pointer;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+#devolucao-pedidos{
+    color: #fff;
+    text-decoration: none;
+}
+
+#devolucao-pedidos p:nth-last-of-type(2){
+    margin-top: 9px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400; 
 }
 
 /*Fim nav top*/
