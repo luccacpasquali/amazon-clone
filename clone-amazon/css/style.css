@@ -125,7 +125,6 @@ select{
 #top-serach-bar{
     max-width: 1060px;
     width: 100%;
-    padding: ;
 }
 
 #input-serach{
@@ -157,6 +156,9 @@ select{
 
 #serach-btn span{
     color: greay;
+    text-align: center;
+    font-size: 26px;
+    padding-left: 14%;
 }
 
 
@@ -207,10 +209,53 @@ select{
 
 /*Fim nav top*/
 
+/*Inicio nav mid*/
+
 header #nav-mid{
     background-color: #232f3e;
     height: 39px;
+    display: flex;
 }
+
+#nav-mid-left{
+    padding: 8px 9px;
+    width: auto;
+
+}
+
+#nav-mid-left > a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+}
+
+#nav-mid-left a span {
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+#nav-mid-left a > #menu-hamburguer{
+    width: 20px;
+    height: 14px;
+}
+
+#nav-mid-left a > #menu-hamburguer hr{
+    margin: 4px;
+    color: white;
+    width: 18px;
+}
+
+
+
+
+
+
+/*fim nav mid */
+
+/*Onicio nav bot*/
 
 header #nav-bot{
     height: 33px;
@@ -409,7 +454,7 @@ div#main-content {
 #prime-logo > span {
     color: #fbb25d;
     font-weight: normal;
-}
+}   
 
 #entrega-gratis {
     font-size: 13px;
