@@ -247,7 +247,27 @@ header #nav-mid{
     color: white;
     width: 18px;
 }
+#nav-mid-fill{
+    width: 1380px;
+    height: 39px;   
+}
 
+#nav-mid-left#nav-xshop-container{
+    max-height: 39px;
+    display: flex;
+    text-align: center;
+}
+
+#nav-xshop-container a{
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    text-decoration: none;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+} 
 
 
 
